@@ -29,6 +29,10 @@ namespace EjemploModuli1
             frmMultiplicacion.Show();
         }
 
-      
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            FrmSumaVector frmSuma = new FrmSumaVector();
+            frmSuma.Show();
+        }
     }
 }
