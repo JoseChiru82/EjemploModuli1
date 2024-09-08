@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
@@ -37,6 +39,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btn5);
+            this.panel1.Controls.Add(this.btn4);
             this.panel1.Controls.Add(this.btn3);
             this.panel1.Controls.Add(this.btn2);
             this.panel1.Controls.Add(this.btn1);
@@ -45,6 +49,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(588, 239);
             this.panel1.TabIndex = 0;
+            // 
+            // btn5
+            // 
+            this.btn5.Location = new System.Drawing.Point(221, 107);
+            this.btn5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(138, 36);
+            this.btn5.TabIndex = 4;
+            this.btn5.Text = "Ejemplo 5";
+            this.btn5.UseVisualStyleBackColor = true;
+            // 
+            // btn4
+            // 
+            this.btn4.Location = new System.Drawing.Point(25, 107);
+            this.btn4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(138, 36);
+            this.btn4.TabIndex = 3;
+            this.btn4.Text = "Ejemplo 4";
+            this.btn4.UseVisualStyleBackColor = true;
             // 
             // btn3
             // 
@@ -99,5 +123,7 @@
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn2;
         private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
     }
 }

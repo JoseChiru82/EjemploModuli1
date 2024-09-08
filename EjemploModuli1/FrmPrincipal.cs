@@ -28,5 +28,7 @@ namespace EjemploModuli1
             FrmMultiplicacion frmMultiplicacion = new FrmMultiplicacion();
             frmMultiplicacion.Show();
         }
+
+      
     }
 }
