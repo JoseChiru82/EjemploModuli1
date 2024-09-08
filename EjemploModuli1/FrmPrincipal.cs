@@ -29,6 +29,10 @@ namespace EjemploModuli1
             frmMultiplicacion.Show();
         }
 
-      
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            FrmConteoRegresivo frmConteo = new FrmConteoRegresivo();
+            frmConteo.Show();
+        }
     }
 }
