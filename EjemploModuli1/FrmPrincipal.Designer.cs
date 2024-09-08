@@ -59,6 +59,7 @@
             this.btn5.TabIndex = 4;
             this.btn5.Text = "Ejemplo 5";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn4
             // 
